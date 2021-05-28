@@ -1,0 +1,61 @@
+/*-----------------------------------------------------------------*/
+/*                      GLOBAL STYLES                              */
+/*-----------------------------------------------------------------*/
+body {
+  color: #1a1a1a;
+  font-family: $font-family-cv;
+  overflow-x: hidden;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-cv;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+li {
+  padding: 0 0 10px;
+}
+
+/*-----------------------------------------------------------------*/
+/*                      LAYOUT                                     */
+/*-----------------------------------------------------------------*/
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.equipo{
+  margin-top: 8em;
+}
+
+.equipo__title{
+  color: $band-corporate;
+}
+
+.member__title{
+  color: $band-corporate;
+}
