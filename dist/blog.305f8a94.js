@@ -1,0 +1,1 @@
+console.log("Hello, ".concat("UOC","!")),document.getElementById("header__hamburger-menu").addEventListener("click",(function(){document.getElementsByClassName("header")[0].classList.toggle("pushed"),document.getElementsByClassName("main-content")[0].classList.toggle("main-pushed"),document.getElementsByClassName("bar")[0].classList.toggle("animate")}),!1);
